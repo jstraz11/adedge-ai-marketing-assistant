@@ -1,0 +1,20 @@
+{
+  "name": "adedge-ai-marketing-assistant",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "VITE_BASE=${VITE_BASE:-/} vite build",
+    "preview": "vite preview",
+    "serve:dist": "npx serve -s dist -l 5173"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.2",
+    "vite": "5.4.8",
+    "serve": "14.2.3"
+  }
+}
